@@ -1,0 +1,39 @@
+{
+    "BASE": {
+        "port": "3000"
+    },
+    
+    "USER": [
+        {
+            "username": "五权",
+            "password": "123456"
+        }
+    ],
+
+    "LANGUAGE_TABLES": [
+        {
+            "label": "England",
+            "value": "GA_England_copy"
+        },
+        {
+            "label": "Japan",
+            "value": "GA_Japan_copy"
+        },
+        {
+            "label": "Thailand",
+            "value": "GA_Thailand_copy"
+        },
+        {
+            "label": "Vietnam",
+            "value": "GA_Vietnam_copy"
+        }
+    ],
+
+    "MYSQL": {
+        "DATABASE": "language",
+        "USERNAME": "root",
+        "PASSWORD": "Hawking@20180314",
+        "PORT": "3306",
+        "HOST": "192.168.1.57"
+    }
+}

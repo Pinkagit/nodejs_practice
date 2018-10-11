@@ -1,0 +1,19 @@
+/* Global use */
+@import "./reset.css";
+
+body {
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    @media screen and (max-width: 1380px) {
+        width: 820px;
+    }
+}
+
+.el-textarea__inner{
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+}
